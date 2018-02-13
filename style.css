@@ -4,13 +4,16 @@ body {
   background-color: black;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
+  text-align: center;
   color: seashell;
   opacity: 0.9;
   display: flex;
+
 }
 
 /* This section deals with the <header> = "logo" div + <nav> */
 header {
+  background-color: black;
   height: 69px;
   width: 100%;
   position: fixed;
@@ -27,10 +30,40 @@ header {
 }
 
 nav {
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 nav a {
   color: white;
   text-decoration: underline;
+  padding: 10px;
+}
+
+
+/* This section deals with the MAINCONTENT div */
+.maincontent{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: scroll;
+}
+
+/* This section deals with the MISSION div */
+.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url(resources/img-mission-background.jpg);
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.missiontext {
+  background-color: black;
+  width: 100%;
+}
+
+.missiontext h2, .missiontext h4 {
+  margin: 10px 0;
 }
