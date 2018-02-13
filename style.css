@@ -1,0 +1,36 @@
+/* CSS for Tea Cozy */
+
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  display: flex;
+}
+
+/* This section deals with the <header> = "logo" div + <nav> */
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  padding-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: underline;
+}
