@@ -1,0 +1,141 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+  text-align: center;
+}
+
+
+/* HEADER = logo div + nav */
+header {
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+}
+
+.logo img {
+  height: 50px;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: seashell;
+  text-decoration: underline;
+  margin: 10px;
+}
+
+
+/* MAINCONTENT div = mission, shop, locations and contact divs inside */
+#maincontent {
+  padding-top: 70px;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+}
+
+
+/* MISSION div  */
+#mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/img-mission-background.jpg);
+}
+
+#missiontext {
+  width: 1200px;
+  background-color: black;
+}
+
+#missiontext h2, #missiontext h4 {
+  margin: 10px;
+}
+
+
+/* SHOP div */
+#shop {
+  display: flex;
+  flex-flow: column;
+  padding-top: 50px;
+}
+
+#menu-head h2, #menu-head h4 {
+  margin: 20px;
+}
+
+#menu {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  margin: 15px;
+}
+
+.item img {
+width: 300px;
+margin-bottom: 10px;
+}
+
+.item h4 {
+  margin: 0;
+}
+
+
+/* LOCATIONS div */
+#locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url(images/img-locations-background.jpg);
+  padding-top: 70px;
+  margin: 50px auto 0 auto;
+}
+
+#locations h2 {
+  margin: 0;
+}
+
+#adresses {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+}
+
+
+/* CONTACT div */
+#contact {
+  height: 200px;
+}
+
+
+/* FOOTER */
+footer {
+  text-align: left;
+}
+
+footer span {
+  padding-left: 20px;
+}
