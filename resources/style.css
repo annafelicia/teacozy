@@ -77,19 +77,23 @@ nav a {
   margin: 20px;
 }
 
+
+/* Regarding the #menu width declaration:
+According to the redline specification document the width between the left side of the first img and the right side of the third img should be 1000px. with the margin between the three images, plus on each side this adds up to 1050 px. The measurements are correct but visually it doesn't look like the redline doc. Either its specified incorrectly or the width should've bit set including margins */
 #menu {
   display: flex;
-  width: 1000px;
+  width: 1050px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .item {
-  margin: 15px;
+  margin: 25px;
 }
 
 .item img {
 width: 300px;
+height: 200px;
 margin-bottom: 10px;
 }
 
